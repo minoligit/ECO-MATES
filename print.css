@@ -1,0 +1,27 @@
+body
+{
+	font-size:140%;
+	font-family: Arial, Helvetica, sans-serif;padding-left:10%;
+	padding-top:2%;
+	padding-right:5%;
+	width: 21cm;
+	height: 29.7cm;
+}
+header
+{
+	text-align:center;
+	text-decoration:bold;
+	font-size:100%;
+	background-color:lightgray;
+	line-height:150%;
+}
+footer
+{
+	text-align:center;
+	text-decoration:bold;
+	font-size:100%;
+	background-color:lightgray;
+}
+@page{
+	size: a4;
+}
