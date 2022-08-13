@@ -1,0 +1,285 @@
+body
+{
+	background-color: #baffba;
+	font-size: 150%;
+	padding-left: 280px;
+  font-family: Arial, Helvetica, sans-serif;
+  /*line-height: 200%;*/
+}
+input
+{
+	background-color: white;
+	font-size: 100%;
+	padding: 20px;
+  width: 500px; 
+}
+#inputRadio
+{
+  width: 20px;
+}
+label
+{
+  float: left;
+  width: 20%;
+  margin-top: 6px;
+}
+#label1
+{
+  width: 100%;
+  margin-top: 6px;
+  text-align: center;
+  font-size: 120%;
+  color: #006b00;
+}
+#label2
+{
+  width: 15%;
+  text-align: left;
+  font-size: 100%;
+  color: black;
+}
+textarea
+{
+  background-color: white;
+  font-size: 100%;
+  padding: 20px;
+  border: 2px solid black;
+  height: 100px;
+  width: 500px;
+}
+select,option
+{
+	background-color: white;
+	font-size: 100%;
+	padding: 20px;
+}
+button
+{
+  background-color: #006b00;
+  font-size: 100%;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px; 
+  color: white;
+}
+#button1
+{
+  font-size: 70%;
+  height: 30px;
+  width: 120px;
+  border-radius: 8px;
+  background-color: #45c761;
+  color: black;
+}
+#button2
+{
+  font-size: 70%;
+  height: 40px;
+  width: auto;
+  border-radius: 8px;
+  background-color: #63aba6;
+  color: black;
+}
+#button-warn
+{
+  font-size: 70%;
+  height: 30px;
+  width: 80px;
+  border-radius: 8px;
+  background-color: #ff8080;
+  color: black;
+}
+#link-button : link,#link-button : visited,#link-button:hover
+{
+  color: black;
+  text-decoration: none;
+}
+H4
+{
+	font-size:150%; 
+	text-align:center; 
+	color:#006b00;
+}
+H5
+{
+  font-size: 120%;
+  text-align: left;
+}
+H6
+{
+  font-size: 120%;
+  text-align: center;
+  color:#006b00;
+}
+.sidenav 
+{
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #00b24c;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  
+}
+.sidenav a 
+{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 100%;
+  color: #FFFFFF;
+  /*display: block;*/
+  transition: 0.3s;
+}
+.sidenav a:hover 
+{
+  color: #f1f1f1;
+}
+.sidenav .closebtn 
+{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 50px;
+  margin-left: 50px;
+}
+.close-form 
+{
+  top: 0;
+  right: 5%;
+  font-size: 200%;
+  margin-left: 90%;
+  color:#006b00;
+}
+hr
+{
+  line-height:1px; 
+  border-color:#006400;
+}
+#hr1
+{
+  line-height:1px; 
+  width: 75%;
+  justify-self: center;
+  border-color:#006400;
+  border-top: 1px dotted;
+}
+#tablestyle1
+{
+  border:2px solid black;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0 15px;
+
+}
+#tablestyle2
+{
+  border:2px solid black;
+  text-align: center;
+}
+footer 
+{
+  background-color: /*#006b00*/#003311;
+  color: white;
+  height: 250px;
+  font-size: 80%;
+  line-height: 150%;
+}
+header
+{
+  background-color: /*#006b00*/ #003311;
+  color: white;
+  height: 90px;
+  font-size: 100%;
+  line-height: 150%;
+}
+#link1:link, #link1:visited {
+  color: white;
+}
+#link2
+{
+
+}
+.form-popup {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  border: 3px solid black;
+  z-index: 9;
+  width: 40%;
+  padding: 50px;
+  background-color: #8FBC8F;
+  /*cursor: move;*/
+}
+.delete-popup
+{
+  position: fixed; right: 80px;top: 40px;
+  right: 15px;
+  border: 1px solid black;
+  z-index: 12;
+  width: 25%;
+  padding: 20px;
+  background-color: white;
+}
+.form-display {
+  border: 3px solid black;
+  z-index: 9;
+  width: 50%;
+  padding: 50px;
+  background-color: #8FBC8F;
+  position: static;
+  /*cursor: move;*/
+}
+.profile-headings
+{
+  text-decoration: underline;
+  color: #006b00;
+  font-size: 120%;
+}
+.profile-sections
+{
+  background-color: #45c761;
+  border: 2px solid black;
+  border-radius: 8px;
+  box-shadow: 10px 20px #249c24;
+  padding: 30px 20px 20px 30px;
+}
+.profile-edit1
+{
+  font-size: 80%;
+  background-color: #baffba;
+  color: #006b00;
+  border: none;
+  width: auto;
+}
+.profile-edit2
+{
+  font-size: 80%;
+  background-color: #45c761;
+  color: #006b00;
+  border: none;
+  width: auto;
+}
+.profile-edit-form
+{
+  border: 3px solid black;
+  z-index: 12;
+  width: 35%;
+  padding: 40px;
+  background-color: #8FBC8F;
+  position: static;
+}
+.profile-submit
+{
+  position: sticky;
+  background-color: #006b00;
+  font-size: 90%;
+  height: 35px;
+  width: 80px;
+  border-radius: 10px; 
+  color: white;
+}
